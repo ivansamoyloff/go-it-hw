@@ -1,13 +1,16 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,);
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin:0 ;
+    padding:0;
 }
 body{
-    font: 13px/21px 'Open Sans', sans-serif;
     background: #f9f9f9;
+    font:13px/21px'Open Sans', sans-serif;
+}
+nav{
+    margin-top: 40px;
 }
 ul{
     list-style: none;
@@ -18,22 +21,91 @@ ul{
     clear: both;
 }
 .container{
-    background: #fff;
+    background: white;
     width: 1060px;
     margin: 0 auto;
     padding: 51px 47px 60px;
-    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow:0 -5px 5px rgba(0,0,0, 0.3);
 }
 .nav-menu{
-    background: #000;
+    background: linear-gradient(to bottom, #444343, #5e5e5e);
+    text-shadow: 1px 1px 2px black;
+}
+.nav-menu__item:hover {
+    background-color: #3f3f3f;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.nav-menu__item1:hover{
+    background-color: #3f3f3f;
+    border-right: 1px solid white;
 }
 .nav-menu__link{
     display: block;
     color: #fff;
     padding: 9px 24px 10px;
     text-decoration: none;
-
 }
 .nav-menu__item{
     float: left;
+}
+.nav-menu__item1{
+    float: left;
+}
+.sidebar__link {
+    display: block;
+    color: #656363;
+    padding: 9px 24px 10px;
+    text-decoration: none;
+    border: 1px solid #c8c8c8;
+    width: 238px;
+}
+.sidebar {
+    width: 240px;
+    padding-top: 40px;
+    float: left;
+
+}
+.sidebar__link:hover{
+    background-color:#f9f9f9;
+    color:black;
+    padding-left: 40px;
+}
+.image{
+    width: 675px;
+    border: 1px solid #c8c8c8;
+}
+p{
+    margin-top: 40px;
+    float: right;
+}
+.content__all{
+    float: right;
+    margin-top: 40px;
+    width: 675px;
+}
+.nav{
+    margin-top: 40px;
+}
+.footer{
+    background: #e1e1e1;
+    margin-top: 40px;
+}
+.footer__link{
+    display: block;
+    color: black;
+    padding: 9px 24px 10px;
+    text-decoration: none;
+}
+.footer__item{
+    float: left;
+}
+.footer__item:hover{
+    text-decoration: underline;
+}
+.copyright{
+    float: right;
+}
+.footer__item:hover{
+    text-decoration: underline;
 }
