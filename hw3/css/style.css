@@ -45,12 +45,19 @@ ul{
     color: #fff;
     padding: 9px 24px 10px;
     text-decoration: none;
+
 }
 .nav-menu__item{
     float: left;
+    border: 1px solid transparent;
 }
 .nav-menu__item1{
     float: left;
+    border: 1px solid transparent;
+}
+.sidebar__item:nth-child(6){
+    width: 238px;
+    border-bottom:1px solid #c8c8c8;
 }
 .sidebar__link {
     display: block;
@@ -58,8 +65,10 @@ ul{
     padding: 9px 24px 10px;
     text-decoration: none;
     border: 1px solid #c8c8c8;
+    border-bottom: none;
     width: 238px;
 }
+
 .sidebar {
     width: 240px;
     padding-top: 40px;
