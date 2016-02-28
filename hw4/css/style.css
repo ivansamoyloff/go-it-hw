@@ -93,20 +93,20 @@ a span{
 .menu_item{
     display: block;
     float: left;
-    height: 30px;
+    height: 34px;
     width: auto;
-    padding: 10px 30px;
+    padding: 10px 30px 0;
 }
 
-.menu_item:hover .sub_adventure{
+.menu_item:hover > .sub_adventure{
     display: block;
 }
 
-.menu_item:hover .sub_services{
+.menu_item:hover > .sub_services{
     display: block;
 }
 
-.menu_item:hover .sub_partners{
+.menu_item:hover > .sub_partners{
     display: block;
 }
 
