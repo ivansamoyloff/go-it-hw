@@ -1,0 +1,13 @@
+.center{
+    margin: 0 auto;
+    width: 30%;
+}
+.buttons{
+    margin-left: 550px;
+}
+p{
+    float: left;
+}
+.for_steps{
+    list-style: none;
+}
