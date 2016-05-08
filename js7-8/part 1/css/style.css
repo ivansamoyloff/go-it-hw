@@ -1,0 +1,31 @@
+.tabs_item{
+    display: inline-block;
+}
+.tabs_button.active{
+    background: #000;
+    color:#fff;
+    border:none;
+}
+.content-block_item{
+    display: none;
+}
+.content-block_item.is-show{
+    display: block;
+}
+.content{
+    width: 35%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.tabs{
+ padding: 10px;
+ background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 67%, rgba(254,254,254,1) 100%);
+ border-bottom: 1px solid lightgrey;
+}
+.content-block{
+    padding: 10px;
+}
+button{
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 11%, rgba(209,209,209,1) 79%, rgba(219,219,219,1) 100%);
+
+}
