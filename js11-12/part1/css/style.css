@@ -1,0 +1,51 @@
+.carousel-list {
+    list-style: none;
+    width: 10000px;
+    padding: 0;
+    position: relative;
+}
+
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+.carousel-img{
+    border-radius: 10px;
+}
+.carousel-text{
+    text-align: center;
+}
+.carousel-element img {
+    width: 300px;
+}
+.carousel-hider {
+    margin: 0 auto;
+    width: 950px;
+    overflow: hidden;
+    float: left;
+}
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+
+}
+
+.carousel-arrow-left {
+    margin-right: 25px;
+}
+
+.carousel-arrow-right {
+    margin-left: 25px;
+}
+button,
+button:active,
+button:focus {
+    outline: none;
+}

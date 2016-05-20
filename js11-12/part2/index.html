@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Homework</title>
+        <link href="css/style2.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/lodash/4.6.1/lodash.js"></script>
+    </head>
+    <body>
+        <div id='my-page'>
+            <script type="text/html" id="html-template">
+                <h1><%-title%></h1>
+                <img src="<%-imgUrl%>" alt="Ванёк!">
+                <p><%-hint%></p>
+                <p class="make"><%-whylist%></p>
+                <ul>
+                    <% list.forEach(function(value) { %>
+                    <li>
+                        <%-value%>
+                    </li>
+                    <%});%>
+                </ul>
+                <p class="make"> <%-contacts%><br>
+                    <%-number%>
+                </p>
+                <p><%-profile%><br>
+                    <%=link%>
+                </p>
+                <p class="make"><%-feedback%><br>
+                    <%-myfeedback%>
+                </p>
+            </script>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
+
+
