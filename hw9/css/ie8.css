@@ -1,0 +1,39 @@
+.wrapper .menu__link{
+	margin: 23px 0 0 51px;
+}
+.slider{
+	background: url(../img/slider_background.png);
+}
+.circle a{
+    border: 3px solid #41424d;
+    background: #41424d;
+}
+.circle a:hover{
+	background: #f1f1f1;
+    border: 3px solid #40444b;
+}
+.about{
+	background: url(../img/about_background.png);
+}
+.about__inner{
+	height: 263px;
+}
+.article{
+	margin: 0 44px 0 52px;
+}
+.article a:hover{
+	text-decoration: underline;
+}
+.blog{
+	background: #f9f9f9;
+}
+.logos{
+	height: 93px;
+}
+.info__article{
+    margin-right: 36px;
+}
+
+body {
+	background: #fff;
+}
