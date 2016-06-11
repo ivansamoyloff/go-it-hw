@@ -1,60 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Zazor</title>
+    <title>Покрышки без регистрации и смс</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class= "container">
-        <header class="clear-fix">
-            <div class="clear-fix">
-                <div class="contacts">
-                    <img class="contacts" src="img/tel.png">
-                    <p class="contacts">(044)123-45-67 (044)567-89-10</p>
-                </div>
-                <div class="login">
-                    <form>
-                        <ul>
-                            <li><img class="pep" src="img/pep.png"></li>
-                            <li><input type="text" placeholder="логин"></li>
-                            <li><input type="password" placeholder="пароль"></li>
-                            <li class="check"><a href="#" >вход</a></li>
-                            <li class="check">&nbsp|&nbsp</li>
-                            <li class="check"><a href="#">регистрация</a></li>
-                            <li class="forget"><a href="#">забыли пароль?</a></li>
-                        </ul>
-                    </form>
-                </div>
-                <div class="nav">
-                    <ul>
-                    <li><a class="navigation" href="#"><img src="img/home.png"></a></li>
-                    <li><a class="navigation" href="#"><img src="img/map.png"></a></li>
-                    <li><a class="navigation" href="#"><img src="img/mail.png"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="logo">
-            <img src="img/logo.jpg">
-            </div>
-        </header>
-        <div class="nav_menu clear-fix">
-            <ul>
-            <li class="nav_item"><a class="nav_link" href="#">О КОМПАНИ</a></li>
-            <li class="nav_item"><a class="nav_link" href="#">ОПЛАТА</a></li>
-            <li class="nav_item"><a class="nav_link" href="#">ДОСТАВКА</a></li>
-            <li class="nav_item"><a class="nav_link" href="#">СТАТЬИ</a></li>
-            <li class="nav_item"><a class="nav_link" href="#">КОНТАКТЫ</a></li>
+<div class="container">
+    <header>
+        <div class="top clear-fix">
+            <ul class="contact_menu">
+                <li class="phone"><img src="img/phone.png" alt="phone"></li>
+                <li class="contacts"><p>(044)123-45-67</p></li>
+                <li class="contacts"><p>(044)567-89-10</p></li>
             </ul>
-            <ul class="buck">
-            <li><img src="img/bucket.png"></li>
-            <li>товаров:</li>
-            <li class="blue">0</li>
-            <li>на сумму:</li>
-            <li class="blue">0,00 грн</li>
+            <ul class="sign_menu">
+                <li class="top_item">
+                    <form class="" action="#">
+                        <img class="top_item" src="img/user.png" alt="user">
+                        <input class="top_item" type="text" placeholder="логин">
+                        <input class="top_item" type="password" placeholder="пароль">
+                    </form></li>
+                <li class="top_item"><a href="#">Вход</a></li>
+                <li class="top_item"><p>|</p></li>
+                <li class="top_item"><a href="#">Регистрация</a></li>
+                <li class="top_item lose_password"><a href="#">Забыли пароль?</a></li>
+            </ul>
+            <ul class="picture_menu clear-fix">
+                <li class="picture_menu_item" ><a href=""><img src="img/home.png" alt="Home"></a></li>
+                <li class="picture_menu_item" ><a href=""><img src="img/map_site.png" alt="Map site"></a></li>
+                <li class="picture_menu_item" ><a href=""><img src="img/message.png" alt="Message"></a></li>
             </ul>
         </div>
-    </div>
+        <a href="#"><img class="banner" src="img/logo.jpg" alt="Logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <div class="basket_menu clear-fix">
+            <a class="basket" href="#"><img src="img/basket.png" alt="basket"> Товаров:</a>
+            <span class="price">0</span>
+            <a class="basket_sum" href="#">На суму:</a>
+            <span class="price">0,00 грн.</span>
+        </div>
+    </nav>
+    <main class="clear-fix">
+        <aside class="catalogue">
+            <h1 class="catalog_head"><img src="img/list.png " alt="list">КАТАЛОГ ПРОДУКЦИИ:</h1>
+            <ul>
+                <li class="catalog_list with_border"><a href="#"><img src="img/circle.png" alt="circle">Шины</a></li>
+                <li class="catalog_item"><a href="#">Наименование 1</a></li>
+                <li class="catalog_item"><a href="#">Наименование 2</a></li>
+                <li class="catalog_item"><a href="#">Наименование 3</a></li>
+                <li class="catalog_item"><a href="#">Наименование 4</a></li>
+            </ul>
+            <ul>
+                <li class="catalog_list with_border"><a href="#"><img src="img/circle.png" alt="circle">Диски</a></li>
+                <li class="catalog_item"><a href="#">Наименование 1</a></li>
+                <li class="catalog_item"><a href="#">Наименование 2</a></li>
+                <li class="catalog_item"><a href="#">Наименование 3</a></li>
+                <li class="catalog_item"><a href="#">Наименование 4</a></li>
+            </ul>
+            <ul>
+                <li class="catalog_list with_border"><a href="#"><img src="img/circle.png" alt="circle">Болты</a></li>
+                <li class="catalog_item"><a href="#">Наименование 1</a></li>
+                <li class="catalog_item"><a href="#">Наименование 2</a></li>
+                <li class="catalog_item"><a href="#">Наименование 3</a></li>
+                <li class="catalog_item"><a href="#">Наименование 4</a></li>
+            </ul>
+        </aside>
+        <ul class="tire_list clear-fix">
+            <li class="tire left" id="margin_right">
+                <figure>
+                    <figcaption>
+                        <a href="#">GoodYear<p>Ultra Grip Extreme</p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/GoodYear_Extreme.png" alt="GoodYear"></a>
+                    <figcaption class="tire_price"> 90,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire left">
+                <figure>
+                    <figcaption>
+                        <a href="#">Nokian<p>Hakkapeliitta R</p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/Nokian_R.png" alt="Nokian"></a>
+                    <figcaption class="tire_price"> 115,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire">
+                <figure>
+                    <figcaption>
+                        <a href="#">Hankook<p>K 708 155/65 R14 </p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/Hankook_K.png" alt="Hankook"></a>
+                    <figcaption class="tire_price"> 393,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire left">
+                <figure>
+                    <figcaption>
+                        <a href="#">GoodYear<p>Ultra Grip Extreme</p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/GoodYear_Extreme.png" alt="GoodYear"></a>
+                    <figcaption class="tire_price"> 90,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire left">
+                <figure>
+                    <figcaption>
+                        <a href="#">Nokian<p>Hakkapeliitta R</p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/Nokian_R.png" alt="Nokian"></a>
+                    <figcaption class="tire_price"> 115,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire">
+                <figure>
+                    <figcaption>
+                        <a href="#">Hankook<p>K 708 155/65 R14 </p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/Hankook_K.png" alt="Hankook"></a>
+                    <figcaption class="tire_price"> 393,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire left">
+                <figure>
+                    <figcaption>
+                        <a href="#">GoodYear<p>Ultra Grip Extreme</p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/GoodYear_Extreme.png" alt="GoodYear"></a>
+                    <figcaption class="tire_price"> 90,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire left">
+                <figure>
+                    <figcaption>
+                        <a href="#">Nokian<p>Hakkapeliitta R</p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/Nokian_R.png" alt="Nokian"></a>
+                    <figcaption class="tire_price"> 115,00 грн.</figcaption>
+                </figure></li>
+            <li class="tire">
+                <figure>
+                    <figcaption>
+                        <a href="#">Hankook<p>K 708 155/65 R14 </p></a>
+                    </figcaption>
+                    <a href="#"><img src="img/Hankook_K.png" alt="Hankook"></a>
+                    <figcaption class="tire_price"> 393,00 грн.</figcaption>
+                </figure></li>
+        </ul>
+        <aside class="clear-fix">
+            <form action="/">
+                <ul class="brands clear-fix">
+                        <li class="brand_head with_border"><h1><img src="img/list.png " alt="list">Бренды</h1></li>
+                        <li class="brand_list with_border"><img src="img/circle.png" alt="circle">Шины</span></li>
+                        <li class="brand_item"><input type="checkbox" id="wheel1"><label for="wheel1">Бренд 1</label></li>
+                        <li class="brand_item"><input type="checkbox" id="wheel2"><label for="wheel2">Бренд 2</label></li>
+                        <li class="brand_item"><input type="checkbox" id="wheel3"><label for="wheel3">Бренд 3</label></li>
+                        <li class="brand_list with_border"><img src="img/circle.png" alt="circle">Диски</li>
+                        <li class="brand_item"><input type="checkbox" id="disk1"><label for="disk1">Бренд 1</label></li>
+                        <li class="brand_item"><input type="checkbox" id="disk2"><label for="disk2">Бренд 2</label></li>
+                        <li class="brand_item"><input type="checkbox" id="disk3"><label for="disk3">Бренд 3</label></li>
+                        <li class="brand_buttom"><input type="submit" value="Выбрать"></li>
+                </ul>
+            </form>
+        </aside>
+        <ul class="logo_line clear-fix">
+            <li class="brand_logo"><a href="#"><img src="img/toyo.png" alt="Toyo"></a></li>
+            <li class="brand_logo"><a href="#"><img src="img/bridge.png" alt="Bridgestone"></a></li>
+            <li class="brand_logo"><a href="#"><img src="img/continental.png" alt="Continental"></a></li>
+            <li class="brand_logo"><a href="#"><img src="img/cooper.png" alt="Cooper"></a></li>
+            <li class="brand_logo"><a href="#"><img src="img/avon.png" alt="Avon"></a></li>
+            <li class="brand_logo"><a href="#"><img src="img/tire_factory.png" alt="Tire_Factory"></a></li>
+            <li class="brand_logo"><a href="#"><img src="img/pirelli.png" alt="Pirelli"></a></li>
+            <li class="brand_logo"><a href="#"><img src="img/dunlop.png" alt="Dunlop"></a></li>
+        </ul>
+    </main>
+    <footer>
+        <ul class="footer_menu clear-fix">
+            <li class="right_border"><a href="#">О компании</a></li>
+            <li class="right_border"><a href="#">Доставка</a></li>
+            <li class="right_border"><a href="#">Статьи</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+        <p>Создание сайта © Рукоjob Inc</p>
+    </footer>
+</div>
 </body>
 </html>

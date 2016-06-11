@@ -1,158 +1,465 @@
-.clear-fix:after{
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 909px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 8px;
+}
+
+.top{
+    padding: 10px 0 5px;
+}
+
+.contact_menu{
+    height: 40px;
+    float: left;
+    padding-top: 3px;
+    padding-left: 6px;
+
+}
+
+.contacts{
+    float: left;
+    padding: 7px 7px 5px 0;
+    font-size: 19px;
+    font-family: "Arial", sans-serif;
+    color: rgb(94, 105, 109);
+    line-height: 1.415;
+}
+
+.phone{
+    float: left;
+    padding: 7px 3px 7px 0;
+}
+
+.sign_menu{
+    background: linear-gradient(#1f6787, #0c3357);
+    width: 496px;
+    height: 27px;
+    float: left;
+    margin: 7px 0 7px 8px;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+
+.sign_menu img{
+    margin: 5px;
+}
+
+.sign_menu input{
+    width: 113px;
+    height: 16px;
+    margin: 4px 7px 5px 0;
+}
+
+.top_item{
+    float: left;
+    height: 21px;
+}
+
+.border_right{
+    border-right: 1px solid white;
+    height: 10px;
+    margin: 8px 0 7px;
+}
+
+.top_item a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 2.333;
+}
+
+.top_item p{
+    color: #FFFFFF;
+    font-size: 12px;
+    margin: 7px 5px;
+}
+
+.lose_password {
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    color: rgb(191, 191, 191);
+    text-decoration: underline;
+    line-height: 2.333;
+    margin-left: 13px;
+}
+
+.picture_menu{
+    display: block;
+    float: left;
+    background-color: white;
+    width: 74px;
+    height: 21px;
+    border: 1px solid #d3d8da;
+    margin: 9px 12px;
+    align-content: center;
+    padding: 3px 5px;
+    border-radius: 8px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+}
+
+.picture_menu_item{
+    float: left;
+    height: 11px;
+    margin: -3px 4px;
+}
+
+.banner{
+    width: 911px;
+    height: 237px;
+}
+
+main{
+    margin-top: 20px;
+}
+
+nav{
+    background: linear-gradient(#505860, #010101);
+    height: 34px;
+    width: 911px;
+    margin-top: 6px;
+    padding-left: 80px;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+nav li{
+    float: left;
+    width: 120px;
+    font-size: 15px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.867;
+    text-align: center;
+    margin-top: 3px;
+}
+
+nav li:hover{
+    height: 26px;
+    background: linear-gradient(#1f6787, #0c3357);
+    border-radius: 13px;
+}
+
+nav li:hover a{
+    color: white;
+}
+
+nav a{
+    font-size: 15px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    color: #d3d8da;
+    line-height: 1.867;
+    text-align: center;
+}
+
+
+nav ul a{
+    text-transform: uppercase;
+}
+
+.basket_menu{
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.basket{
+    width: auto;
+    font-size: 11px;
+    font-family: "Arial", sans-serif;
+    color: rgb(146, 155, 159);
+    line-height: 1.2;
+}
+
+.basket_sum{
+    width: auto;
+    font-size: 11px;
+    font-family: "Arial", sans-serif;
+    color: rgb(146, 155, 159);
+    line-height: 1.2;
+    margin-left: 15px;
+}
+
+.price{
+    width: auto;
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    color: rgb(13, 90, 143);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.catalogue{
+    float: left;
+}
+
+.catalog_item{
+    margin-left:  35px;
+    list-style: circle;
+}
+
+.catalog_list{
+    width: 150px;
+    height: 28px;
+    border-radius: 15px;
+    margin-left: 2px;
+    padding: 0 0 3px 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    color: rgb(12, 50, 86);
+    line-height: 2;
+    text-align: left;
+}
+
+.catalog_list a{
+    display: block;
+}
+
+.catalog_head {
+    display: block;
+    margin-bottom: 15px;
+    width: 183px;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(17, 65, 101);
+    line-height: 2;
+    text-align: left;
+    padding: 0 0 2px 2px;
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+
+.catalog_head img{
+    padding-bottom: 2px;
+}
+
+.catalogue a{
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(17, 65, 101);
+    line-height: 1.819;
+}
+
+
+.tire_list{
+    width: 526px;
+    height: 626px;
+    float: left;
+    padding: 10px 10px 10px 21px;
+    margin-left: 9px;
+    background: linear-gradient(#e5e7e8, #93a7b0);
+    border-radius: 3px;
+}
+
+.tire{
+    margin-bottom: 27px;
+}
+
+figure img{
+    width: 137px;
+    height: 127px;
+    background: #ffffff;
+    padding: 4px 28px;
+    border-radius: 6px;
+}
+
+figcaption a{
+    display: block;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(32, 105, 136);
+    line-height: 0.875;
+    text-align: center;
+}
+
+figcaption a p{
+    font-size: 10px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    line-height: 1.875;
+    color: black;
+    text-align: center;
+}
+
+.tire_price{
+    margin-top: 6px;
+    font-size: 17px;
+    font-family: "Arial", sans-serif;
+    color: rgb(17, 65, 101);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 0.627;
+    text-align: center;
+}
+
+.brands{
+    float: right;
+    width: 182px;
+    height: 626px;
+}
+
+.brand_head{
+    height: 27px;
+    width: 183px;
+    margin-bottom: 11px;
+    padding-left: 3px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(12, 50, 86);
+    line-height: 2;
+    text-align: left;
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+
+.brand_head img{
+    padding-bottom: 4px;
+}
+
+.brand_list{
+    height: 27px;
+    width: 135px;
+    margin: 5px 0 8px 14px;
+    padding: 0 0 3px 3px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    color: rgb(12, 50, 86);
+    line-height: 2;
+    text-align: left;
+}
+
+.brand_list img{
+    padding-bottom: 4px;
+}
+
+.brand_list span{
+    display: block;
+}
+
+.brand_item{
+    margin-left: 24px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    color: rgb(70, 89, 97);
+    line-height: 1.964;
+}
+
+.brand_buttom{
+    margin-top: 8px;
+}
+
+.brand_buttom input{
+    height: 25px;
+    width: 80px;
+    color: #FFFFFF;
+    margin: 7px 0 20px 23px;
+    background-color: #1f6787;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+
+.logo_line{
+    width: 690px;
+    height: 30px;
+    margin: 40px 117px 20px;
+}
+
+.brand_logo{
+    float: left;
+    margin-right: 13px;
+}
+
+footer{
+    background-color: #213a4d;
+    height: 100px;
+}
+
+.footer_menu{
+    margin: 20px 290px;
+}
+
+footer li{
+    float: left;
+    width: auto;
+    padding-right: 7px;
+    margin: 6px 0 0 16px;
+}
+
+footer li:hover a{
+    color: rgb(82, 171, 203);
+}
+
+.right_border{
+    border-right: 1px solid white;
+}
+
+footer li a{
+    font-size: 13px;
+    font-family: "Arial", sans-serif;
+    color: #d3d8da;
+    line-height: 1.364;
+}
+
+
+footer p{
+    margin: 15px 335px 0;
+    padding-bottom: 50px;
+    font-size: 10px;
+    font-family: "Arial", sans-serif;
+    color: rgb(127, 71, 64);
+    line-height: 1.8;
+}
+
+.left{
+    float: left;
+    margin-right: 30px;
+}
+
+.with_border{
+    border: 1px solid rgb(17, 65, 101);
+}
+
+.clear-fix:after {
     content: "";
     display: block;
     clear: both;
-}
-.container{
-    width: 930px;
-    margin: 0 auto;
-    margin-top: 20px;
-}
-header{
-    margin: 0 auto;
-}
-.logo{
-    margin: 11px auto;
-    position: absolute;
-    height: 237px;
-}
-.contacts{
-    margin-top: 4px;
-    float: left;
-    font-family: Arial Regular,sans-serif;
-    font-size: 18px;
-    color: #5e696d;
-}
-form{
-    width: 495px;
-    height: 25px;
-}
-.login{
-    width: 495px;
-    height: 25px;
-    margin: 4px 0 0 38px;
-    float: left;
-    font-family: Lucida Sans Unicode Regular, sans-serif;
-    font-size: 11px;
-    background: linear-gradient(to bottom, #206988, #114165, #0c3256);
-    border-radius: 3px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-}
-.login a{
-    text-decoration: none;
-    margin: 5px;
-    color: #fff;
-}
-.check{
-    margin-top: 6px;
-}
-li{
-    float: left;
-    color: #fff;
+    text-align: center;
 }
 
-input{
-    width: 109px;
-    height: 11px;
-    margin: 3px;
-    font-family: Lucida Sans Unicode Regular, sans-serif;
-}
-.pep{
-    margin: 3px 3px 3px 7px;
-}
-.forget{
-    margin: 5px 0 0 5px;
-}
-.forget a{
-    font-size: 12px;
-    color: #bfbfbf;
-    text-decoration: underline;
-}
-.nav{
-    height: 20px;
-    width: 75px;
-    float: right;
-    margin: 3px 29px 0 0;
-    border: 1px solid #c1c8cb;
-    border-radius: 10px;
-    box-shadow:3px 3px 3px rgba(0,0,0,0.5);
-}
-.navigation{
-    margin: 5px;
-}
-.nav_menu{
-    position: absolute;
-    height: 34px;
-    width: 910px;
-    margin: 253px auto 0;
-    background: linear-gradient(to top, #000000, #576068);
-    border-radius: 3px;
-}
-.nav_link{
-    padding: 7px 10px;
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    display: block;
-}
-.nav_item{
-    height: 25px;
-    width: 120px;
-    margin-top: 3px;
-    font-family: Lucida Sans Unicode Regular, sans-serif;
-}
-.nav_link:nth-child(2){
-    width:56px;
-}
-.nav_link:nth-child(3){
-    width: 105px;
-}
-.nav_link:nth-child(4){
-    width:80px;
-}
-.nav_item:first-child{
-    margin-left: 135px;
-    width:106px;
-}
-.nav_item:nth-child(2){
-    width:76px;
-    margin-left: 15px;
-    margin-right: 8px;
-}
-.nav_item:nth-child(3){
-    width: 92px;
-}
-.nav_item:nth-child(4){
-    margin-left: 11px;
-    width:74px;
-}
-.nav_item:nth-child(5){
-    margin-left: 6px;
-    width:96px;
-}
-.nav_link:hover{
-    height: 13px;
-    background: linear-gradient(to bottom, #206988, #0c3256);
-    border-radius: 12px;
-}
-.buck{
-    float: right;
-    font-size: 12px;
-    margin-right: 10px;
-}
-.buck li{
-    margin-right: 10px;
-    margin-top: 5px;
-}
-.blue{
-    color: #0d5a8f;
-    font-size: 14px;
-}
 @font-face {
-    font-family: Arial Regular;
-    src: url(//fonts/Arial-Regular.ttf);
+    font-family: 'Lucida Sans Unicode';
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot');
+    src: url('../fonts/lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+    url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'),
+    url('../fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
-@font-face {
-    font-family: Lucida Sans Unicode Regular;
-    src: url(//fonts/Lucida_Sans_Unicode_Regular.ttf);
-}
+
