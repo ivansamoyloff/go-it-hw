@@ -1,0 +1,269 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+.main-content{
+  width: 1160px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  .header{
+    padding:30px 0 30px 5px;
+    .links {
+      float: right;
+      padding-top:20px ;
+      ul {
+
+        height: 19px;
+        li {
+          width: 17px;
+          height: 19px;
+          padding: 0 9px 0 9px;
+          display: block;
+          float: left;
+        }
+      }
+    }
+    .nav-menu {
+      overflow: hidden;
+      height: 56px;
+      margin-top: 35px;
+      background-color: #2a2d32;
+      ul {
+        width:668px;
+        li {
+          border-left: 1px solid black;
+          float: left;
+          padding: 20px 37px;
+          background-color: #2a2d32;
+
+          a {
+            display: block;
+            text-decoration: none;
+            color: white;
+          }
+          a:hover{
+            color: #f4b60d;
+          }
+        }
+        li:active{
+          color: royalblue;
+        }
+        li:first-child{
+          border-left: none;
+        }
+        li:last-child{
+          border-right:1px solid black ;
+        }
+      }
+      input{
+        margin: 8px;
+        width: 239px;
+        padding-left: 10px;
+        height: 38px;
+        float: right;
+        background-color: #35383c;
+        color: #626466;
+        border: 1px solid black;
+      }
+    }
+  }
+  .slider{
+    margin-bottom: 20px;
+  }
+  .functions{
+    overflow: hidden;
+    .functions__block{
+      overflow: hidden;
+      display: block;
+      margin: 10px;
+      float: left;
+      .functions__number{
+        float: left;
+        width: 90px;
+        z-index: 1;
+      }
+      .functions__info{
+
+        h1{
+          font-size: larger;
+          font-weight: bold;
+          padding: 10px 0 5px ;
+
+        }
+        p{
+          width: 240px;
+          padding: 15px 0;
+          color: grey;
+        }
+        a{
+          padding: 15px 0;
+          text-decoration: none;
+          color: #000;
+        }
+        a:hover{
+          color: royalblue;
+        }
+        padding-left: 35px;
+        float: right;
+        z-index: 1;
+      }
+    }
+  }
+}
+.services{
+  p {
+    font-size: 20px;
+    padding: 60px 0 20px 110px;
+  }
+  height: 465px;
+  color: white;
+  background-color: #2a2d32;
+  overflow: hidden;
+  .blocks{
+    width: 1160px;
+  overflow: hidden;
+    margin: 0 auto;
+    .services__block{
+    overflow: hidden;
+    padding: 15px;
+    float: left;
+      p{
+        font-size: 14px;
+        text-align: center;
+        padding: 30px 0 0 0;
+
+       }
+    }
+  }
+}
+.news{
+  overflow: hidden;
+  background-color: #f7f7f7;
+  padding-left: 100px;
+  a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  p{
+    color: #939393;
+  }
+  .latest-news{
+    overflow: hidden;
+    width: 605px;
+    float: left;
+    h1{
+      padding: 35px 0 20px 35px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .news__block {
+      float: left;
+      padding: 10px 0 20px 20px;
+
+      .news__content{
+        float: right;
+        padding: 10px 0 20px 20px;
+        a:hover{
+          color: royalblue;
+        }
+        .content {
+
+          a {
+            font-weight: normal;
+            color: royalblue;
+          }
+        }
+        .text {
+          padding-top:20px ;
+          width: 370px;
+        }
+      }
+    }
+  }
+  .banner-place{
+    width: 550px;
+    padding-right: 60px;
+    float: right;
+    h1{
+      padding: 35px 0 20px 35px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+ .adv{
+   padding-bottom: 0;
+  overflow: hidden;
+  ul{
+    overflow: hidden;
+    li{
+      padding: 45px 20px 25px;
+      float: left;
+    }
+  }
+}
+.footer{
+  overflow: hidden;
+  background-color: #2a2d32;
+  .footer__menu{
+    overflow: hidden;
+    padding:0 130px ;
+    h3{
+      font-size: 16px;
+      color: #fff;
+    }
+    .footer__menu__block{
+      padding: 15px 5px;
+      float: left;
+      ul{
+        overflow: hidden;
+        padding-top: 15px;
+        width: 260px;
+        li{
+          height: 15px;
+          padding: 10px 0;
+          border-top: 1px solid #393c40 ;
+        }
+        li:first-child{
+          border-top: none;
+        }
+      }
+      a{
+        display: block;
+        height: 100%;
+        color: #7d7e81;
+        text-decoration: none;
+        font-size: 13px;
+      }
+      a:hover{
+        color: royalblue;
+      }
+    }
+  }
+  .footer__info{
+    overflow: hidden;
+    background-color: #35383c;
+    .footer__info__block{
+      padding:20px 130px ;
+      ul{overflow: hidden;
+        li{
+          float: left;
+          font-size: 12px;
+          color: #7d7e81;
+          padding-left:20px;
+          img{
+            padding-right: 10px;
+          }
+        }
+        li:last-child{
+          padding-top: 3px;
+        }
+      }
+    }
+  }
+}
+
