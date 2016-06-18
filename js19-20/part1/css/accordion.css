@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.accordion-panel{
+    width: 560px;
+
+}
+.banner-place{
+    width: 550px;
+}
+.accordion-ico{
+    float: left;
+    border: 1px solid lightgrey;
+}
+.ico{
+    height: 9px;
+    width: 9px;
+    margin: 14px;
+    background: url(../img/sprite.png) 0 0 no-repeat;
+}
+.accordion-name{
+    font-size: 15px;
+    padding: 11px;
+    border: 1px solid lightgrey;
+    overflow: hidden;
+}
+.accordion-content{
+    padding: 30px;
+    color: #939393;
+    display: none;
+}
+.accordion-panel.act{
+    background-color: #f4b60d;
+}
+.accordion-panel.normal{
+    background-color: #fff;
+}
+.ico.act{
+    background-position: 0 -9px;
+}
+.ico.normal{
+    background-position: 0 0;
+}
+
+
+
